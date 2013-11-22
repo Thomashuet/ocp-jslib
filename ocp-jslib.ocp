@@ -1,4 +1,3 @@
-
 begin
   generated = true
 
@@ -11,6 +10,9 @@ begin
       requires = [ "camlp4lib" "camlp4-pa-op" "Camlp4Bin" ]
   end
 *)
+  begin program "camlp4o"
+  end
+  
   dirname = [ "%{js_of_ocaml.syntax_SRC_DIR}%" ]
 
   begin objects "js_of_ocaml.camlp4-syntax.objects"
